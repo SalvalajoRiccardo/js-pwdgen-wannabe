@@ -9,5 +9,5 @@ console.log(colore);
 
 var password = nome + cognome + colore + "21";
 
-document.getElementById('password').innerHTML += password;
+document.getElementById('password').innerHTML += password.toLowerCase();
 console.log(password);
